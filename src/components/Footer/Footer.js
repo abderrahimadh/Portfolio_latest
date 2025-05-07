@@ -3,14 +3,14 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import Twitter  from '@mui/icons-material/Twitter';
 import { personal_info } from '../../data/index';
+
 
 const Footer = () => {
     return (
         <FooterContainer>
             <FooterWrapper>
-                <Logo href="/">SK Ashi</Logo>
+                <Logo href="/">Abd ADH</Logo>
                 <NavItems>
                     <NavLink href="#Main">Home</NavLink>
                     <NavLink href="#AboutMe">About</NavLink>
@@ -39,19 +39,25 @@ const Footer = () => {
                         <LinkedInIcon />
                     </SocialMediaIcon>
 
-                  
-
                     <SocialMediaIcon
-                        href={personal_info.twitter}
+                        href={personal_info.Instagram}
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <Twitter />
+                        <InstagramIcon />
+                    </SocialMediaIcon>
+
+                    <SocialMediaIcon
+                        href={personal_info.facebook}
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <FacebookIcon />
                     </SocialMediaIcon>
 
                 </SocialMediaIcons>
                 <Copyright>
-                    &copy; 2024 SK Ashi
+                    &copy; 2025 Abd ADH
                     All rights reserved.
                 </Copyright>
             </FooterWrapper>

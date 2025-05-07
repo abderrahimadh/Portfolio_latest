@@ -15,7 +15,7 @@ const Navbar = () => {
                 <NavbarContainer>
                     <NavLogo href="/">
                         <Title>
-                            <Span>SK Ashi</Span> 
+                            <Span>Abd ADH</Span>
                         </Title>
                     </NavLogo>
 

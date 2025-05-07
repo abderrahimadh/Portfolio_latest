@@ -62,7 +62,7 @@ export const AboutMeLeftContainer = styled.div`
 `;
 
 export const AboutMeRightContainer = styled.div`
-    width: 100%;
+    width: 70%;
     display: flex;
     justify-content: flex-end;
     align-items: center;

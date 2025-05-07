@@ -7,7 +7,10 @@ export const personal_info = {
     github: "https://github.com/abderrahimadh",
     cv: "hi",
     linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
-    Instagram:"https://www.instagram.com/adhabderrahim/"
+    Instagram:"https://www.instagram.com/adhabderrahim/",
+    facebook:"https://www.facebook.com/abderrahimadh"
+
+
 };
 
 export const skills = [
