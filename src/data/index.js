@@ -8,7 +8,7 @@ export const personal_info = {
     cv: "hi",
     linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
     Instagram:"https://www.instagram.com/adhabderrahim/",
-    facebook:"https://www.facebook.com/abderrahimadh"
+    facebook:"https://www.facebook.com/abderrahim.adhaour"
 
 
 };
@@ -120,11 +120,8 @@ export const skills = [
         ],
     },
     {
-        title: "Tools",
+        title: "Tools & Environments",
         skills: [
-           
-            
-           
            
             {
                 name: "GitHub",
@@ -137,19 +134,14 @@ export const skills = [
                     "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
             },
             {
-                name: "Netlify",
+                name: "Intellij IDEA",
                 image:
-                    "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+                    "https://images.seeklogo.com/logo-png/28/1/intellij-idea-logo-png_seeklogo-284399.png",
             },
             {
-                name: "Render",
+                name: "Webstorm",
                 image:
-                    "https://media.licdn.com/dms/image/D4E0BAQGGDoFoqHtOvA/company-logo_200_200/0/1702595267620/renderco_logo?e=2147483647&v=beta&t=Ywm0UZpTXbiXPopyfCDty8QXSEVz88QWWCwy28qLUyE",
-            },
-            {
-                name: "Vercel",
-                image:
-                    "https://cdn.svgporn.com/logos/vercel-icon.svg",
+                    "https://images.seeklogo.com/logo-png/28/1/webstorm-logo-png_seeklogo-284394.png",
             },
             {
                 name: "VS Code",
@@ -157,9 +149,19 @@ export const skills = [
                     "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
             },
             {
-                name: "Postman",
+                name: "Netlify",
                 image:
-                    "https://seeklogo.com/images/P/postman-logo-0087CA0D15-seeklogo.com.png",
+                    "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+            },
+            {
+                name: "Vercel",
+                image:
+                    "https://cdn.svgporn.com/logos/vercel-icon.svg",
+            },
+            {
+                name: "Latex",
+                image:
+                    "https://images.seeklogo.com/logo-png/46/1/overleaf-logo-png_seeklogo-466882.png",
             },
             {
                 name: "Figma",
@@ -203,10 +205,10 @@ descriptionDetails: [
         website: "https://smart-gen-ai-a.vercel.app/",
         members: [
             {
-                name: "Sk Ashi",
-                img: "./img/ashi.jpg",
-                github: "https://github.com/ashiii1",
-                linkedin: "https://www.linkedin.com/in/a/",
+                name: "Abd ADH",
+                img: "./img/avat.jpeg",
+                github: "https://github.com/abderrahimadh",
+                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
             },
         ],
     },
@@ -240,10 +242,10 @@ descriptionDetails: [
         website: "https://zen-x-form.vercel.app/",
         members: [
             {
-                name: "Sk Ashi",
-                img: "./img/ashi.jpg",
-                github: "https://github.com/ashiii1",
-                linkedin: "https://www.linkedin.com/in/a/",
+                name: "Abd ADH",
+                img: "./img/avat.jpeg",
+                github: "https://github.com/abderrahimadh",
+                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
             },
         ],
     },
@@ -276,10 +278,10 @@ descriptionDetails: [
         website: "https://prompt-ai-henna.vercel.app/",
         members: [
             {
-                name: "Sk Ashi",
-                img: "./img/ashi.jpg",
-                github: "https://github.com/ashiii1",
-                linkedin: "https://www.linkedin.com/in/a/",
+                name: "Abd ADH",
+                img: "./img/avat.jpeg",
+                github: "https://github.com/abderrahimadh",
+                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
             },
         ],
     },
@@ -315,10 +317,10 @@ descriptionDetails: [
         website: "https://master--landingtemplates.netlify.app/",
         members: [
             {
-                name: "Sk Ashi",
-                img: "./img/ashi.jpg",
-                github: "https://github.com/ashiii1",
-                linkedin: "https://www.linkedin.com/in/a/",
+                name: "Abd ADH",
+                img: "./img/avat.jpeg",
+                github: "https://github.com/abderrahimadh",
+                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
             },
         ],
     },
@@ -355,10 +357,10 @@ descriptionDetails: [
     website: "https://easy-tripp.vercel.app/",
     members: [
         {
-            name: "SK Ashi",
-            img: "./img/ashi.jpg",
-            github: "https://github.com/ashiii1",
-            linkedin: "https://www.linkedin.com/in/a/",
+            name: "Abd ADH",
+            img: "./img/avat.jpeg",
+            github: "https://github.com/abderrahimadh",
+            linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
         },
     ],
 },
@@ -394,10 +396,10 @@ descriptionDetails: [
         website: "https://edu-ocean-j2qa.vercel.app/",
         members: [
             {
-                name: "Sk Ashi",
-                img: "./img/ashi.jpg",
-                github: "https://github.com/ashiii1",
-                linkedin: "https://www.linkedin.com/in/a/",
+                name: "Abd ADH",
+                img: "./img/avat.jpeg",
+                github: "https://github.com/abderrahimadh",
+                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
             },
         ],
     },
@@ -436,10 +438,10 @@ descriptionDetails: [
         website: "https://aio-blush.vercel.app/",
         members: [
             {
-                name: "SK Ashi",
-                img: "./img/ashi.jpg",
-                github: "https://github.com/ashiii1",
-                linkedin: "https://www.linkedin.com/in/a/",
+                name: "Abd ADH",
+                img: "./img/avat.jpeg",
+                github: "https://github.com/abderrahimadh",
+                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
             },
         ],
     },
@@ -471,10 +473,10 @@ descriptionDetails: [
         website: "https://startup-saas-documentation.vercel.app/",
         members: [
             {
-                name: "SK Ashi",
-                img: "./img/ashi.jpg",
-                github: "https://github.com/ashiii1",
-                linkedin: "https://www.linkedin.com/in/a/",
+                name: "Abd ADH",
+                img: "./img/avat.jpeg",
+                github: "https://github.com/abderrahimadh",
+                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
             },
            
         ],
@@ -504,10 +506,10 @@ id: 5,
         website: "https://saas-startup-landing-page-rkfuvookg-ashis-projects-e33ce122.vercel.app/",
         members: [
             {
-                name: "SK Ashi",
-                img: "./img/ashi.jpg",
-                github: "https://github.com/ashiii1",
-                linkedin: "https://www.linkedin.com/in/a/",
+                name: "Abd ADH",
+                img: "./img/avat.jpeg",
+                github: "https://github.com/abderrahimadh",
+                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
             },
         ],
     },
@@ -539,10 +541,10 @@ id: 5,
         website: "https://gitly-mu.vercel.app/",
         members: [
             {
-                name: "SK Ashi",
-                img: "./img/ashi.jpg",
-                github: "https://github.com/ashiii1",
-                linkedin: "https://www.linkedin.com/in/a/",
+                name: "Abd ADH",
+                img: "./img/avat.jpeg",
+                github: "https://github.com/abderrahimadh",
+                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
             },
         ],
     },
@@ -577,10 +579,10 @@ id: 5,
         website: "https://tolet-m.vercel.app/",
         members: [
             {
-                name: "SK Ashi",
-                img: "./img/ashi.jpg",
-                github: "https://github.com/ashiii1",
-                linkedin: "https://www.linkedin.com/in/a/",
+                name: "Abd ADH",
+                img: "./img/avat.jpeg",
+                github: "https://github.com/abderrahimadh",
+                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
             },
         ],
     },
@@ -614,10 +616,10 @@ id: 5,
         website: "https://aio-blush.vercel.app/food-order",
         members: [
             {
-                name: "SK Ashi",
-                img: "./img/ashi.jpg",
-                github: "https://github.com/ashiii1",
-                linkedin: "https://www.linkedin.com/in/a/",
+                name: "Abd ADH",
+                img: "./img/avat.jpeg",
+                github: "https://github.com/abderrahimadh",
+                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
             },
         ],
     },
@@ -652,10 +654,10 @@ id: 5,
         website: "https://aio-blush.vercel.app/grocery",
         members: [
             {
-                name: "SK Ashi",
-                img: "./img/ashi.jpg",
-                github: "https://github.com/ashiii1",
-                linkedin: "https://www.linkedin.com/in/a/",
+                name: "Abd ADH",
+                img: "./img/avat.jpeg",
+                github: "https://github.com/abderrahimadh",
+                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
             },
         ],
     },
@@ -689,10 +691,10 @@ id: 5,
         website: "https://aio-blush.vercel.app/shopping",
         members: [
             {
-                name: "SK Ashi",
-                img: "./img/ashi.jpg",
-                github: "https://github.com/ashiii1",
-                linkedin: "https://www.linkedin.com/in/a/",
+                name: "Abd ADH",
+                img: "./img/avat.jpeg",
+                github: "https://github.com/abderrahimadh",
+                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
             },
         ],
     
@@ -726,10 +728,10 @@ id: 5,
         website: "https://aio-blush.vercel.app/books",
         members: [
             {
-                name: "SK Ashi",
-                img: "./img/ashi.jpg",
-                github: "https://github.com/ashiii1",
-                linkedin: "https://www.linkedin.com/in/a/",
+                name: "Abd ADH",
+                img: "./img/avat.jpeg",
+                github: "https://github.com/abderrahimadh",
+                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
             },
         ],
     },
@@ -774,10 +776,10 @@ id: 5,
     website: "https://github.com/PB2204/Sunday/pull/15",
     members: [
         {
-            name: "SK Ashi",
-            img: "./img/ashi.jpg",
-            github: "https://github.com/ashiii1",
-            linkedin: "https://www.linkedin.com/in/a/",
+            name: "Abd ADH",
+            img: "./img/avat.jpeg",
+            github: "https://github.com/abderrahimadh",
+            linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
         },
     ],
 },
@@ -814,10 +816,10 @@ github: "https://github.com/MLSA-UET-Lahore-NC/BookWise-Frontend/pull/3",
 website: "https://github.com/MLSA-UET-Lahore-NC/BookWise-Frontend/pull/3",
 members: [
     {
-        name: "SK Ashi",
-        img: "./img/ashi.jpg",
-        github: "https://github.com/ashiii1",
-        linkedin: "https://www.linkedin.com/in/a/",
+        name: "Abd ADH",
+        img: "./img/avat.jpeg",
+        github: "https://github.com/abderrahimadh",
+        linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
     },
 ],
 },
@@ -854,10 +856,10 @@ github: "https://github.com/devfolioco/react-otp-input/pull/457",
 website: "https://github.com/devfolioco/react-otp-input/pull/457",
 members: [
     {
-        name: "SK Ashi",
-        img: "./img/ashi.jpg",
-        github: "https://github.com/ashiii1",
-        linkedin: "https://www.linkedin.com/in/a/",
+        name: "Abd ADH",
+        img: "./img/avat.jpeg",
+        github: "https://github.com/abderrahimadh",
+        linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
     },
 ],
 },
@@ -895,10 +897,10 @@ github: "https://github.com/SooryaCodes/HACKTOBERFEST-2024-CHALLENGE/pull/1",
 website: "https://github.com/SooryaCodes/HACKTOBERFEST-2024-CHALLENGE/pull/1",
 members: [
     {
-        name: "SK Ashi",
-        img: "./img/ashi.jpg",
-        github: "https://github.com/ashiii1",
-        linkedin: "https://www.linkedin.com/in/a/",
+        name: "Abd ADH",
+        img: "./img/avat.jpeg",
+        github: "https://github.com/abderrahimadh",
+        linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
     },
 ],
 },
@@ -933,10 +935,10 @@ members: [
     website: "https://live-streaming-2.onrender.com/",
     members: [
         {
-            name: "SK Ashi",
-            img: "./img/ashi.jpg",
-            github: "https://github.com/ashiii1",
-            linkedin: "https://www.linkedin.com/in/a/",
+            name: "Abd ADH",
+            img: "./img/avat.jpeg",
+            github: "https://github.com/abderrahimadh",
+            linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
         },
        
     ],
@@ -976,10 +978,10 @@ github: "https://github.com/Aneeshaik/gym-app/pull/52",
 website: "https://github.com/Aneeshaik/gym-app/pull/52",
 members: [
     {
-        name: "SK Ashi",
-        img: "./img/ashi.jpg",
-        github: "https://github.com/ashiii1",
-        linkedin: "https://www.linkedin.com/in/a/",
+        name: "Abd ADH",
+        img: "./img/avat.jpeg",
+        github: "https://github.com/abderrahimadh",
+        linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
     },
 ],
 },
@@ -1029,10 +1031,10 @@ members: [
         website: "https://aio-blush.vercel.app/furniture",
         members: [
             {
-                name: "SK Ashi",
-                img: "./img/ashi.jpg",
-                github: "https://github.com/ashiii1",
-                linkedin: "https://www.linkedin.com/in/a/",
+                name: "Abd ADH",
+                img: "./img/avat.jpeg",
+                github: "https://github.com/abderrahimadh",
+                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
             },
         ],
     },
@@ -1067,10 +1069,10 @@ members: [
         website: "https://d1cyd7zwa3ber8.cloudfront.net/",
         members: [
             {
-                name: "SK Ashi",
-                img: "./img/ashi.jpg",
-                github: "https://github.com/ashiii1",
-                linkedin: "https://www.linkedin.com/in/a/",
+                name: "Abd ADH",
+                img: "./img/avat.jpeg",
+                github: "https://github.com/abderrahimadh",
+                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
             },
         ],
     },
@@ -1083,27 +1085,17 @@ members: [
 export const education = [
         {
             id: 0,
-            img: "https://up.yimg.com/ib/th?id=OIP.pWnhwAvVjKlKvtk7An5aEAAAAA&pid=Api&rs=1&c=1&qlt=95&w=112&h=114",
-            desc: "Key Computer Science subjects including Data Structures & Algorithms, Database Management Systems, Operating Systems, Computer Networks, Compiler Design, Big Data & Machine Learning, Software Engineering, Web Technologies, and a Capstone Project focusing on industry-oriented solutions.",
-            school: "JNTUK- Dhanekula Institute of Engineering and Technology",
-            degree: "Bachelor of Technology in Computer Science and Engineering",
-            date: "Mar 2020 – Jun 2024",
+            img: "./img/EMI LOGO.png",
+            school: "MOHAMMADIA School of Engineers (EMI)",
+            degree: "It & Digitalization Engineering",
+            date: "2023-2026 | Pursuing",
         },
         {
             id: 1,
-            img: "https://up.yimg.com/ib/th?id=OIP.RZsh0pYDdSjY3h5sM-MSGgAAAA&pid=Api&rs=1&c=1&qlt=95&w=150&h=105",
-            desc: "Focused on core subjects including Mathematics, Physics, and Chemistry (MPC) with exposure to Object-Oriented Programming, Data Structures, and problem-solving techniques.",
-            school: "Sri Chaithanya Jr College",
-            degree: "11th-12th Intermediate (MPC)",
-            date: "Mar 2018 – Mar 2020",
-        },
-        {
-            id: 2,
-            img: "https://tse2.mm.bing.net/th?id=OIP.ckVvylhZEKzdyVOGTwtadwHaHa&pid=Api&P=0&h=180",
-            desc: "Studied foundational subjects including Mathematics, Science, Social Studies, and Computer Science, developing a strong base for further academic growth.",
-            school: "RK High School",
-            degree: "Scooling",
-            date: "Jan 2017 – Dec 2019",
+            img: "./img/cpge.png",
+            school: "CPGE - Classes préparatoires aux grandes écoles",
+            degree: "Physics and Engineering Sciences",
+            date: "2021-2023 | Completed",
         },
     ];
     

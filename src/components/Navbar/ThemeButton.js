@@ -13,11 +13,11 @@ const ThemeButton = ({ onClick }) => {
             <ThemeLogo onClick={onClick} theme={theme}>
                 {
                     darkMode ? (
-                        <Elements onClick={() => setDarkMode(false)}>
+                        <Elements onClick={() => setDarkMode(true)}>
                             <DarkModeRoundedIcon />
                         </Elements>
                     ) : (
-                        <Elements onClick={() => setDarkMode(true)}>
+                        <Elements onClick={() => setDarkMode(false)}>
                             <LightModeRoundedIcon />
                         </Elements>
                     )

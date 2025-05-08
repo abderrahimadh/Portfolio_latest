@@ -80,7 +80,7 @@ const Projects = ({ openModal, setOpenModal }) => {
     return (
         <Container id="Projects">
             <Wrapper>
-                <Title>FEATURED PROJECTS</Title>
+                <Title>My PROJECTS</Title>
                 {/* <Description>What I have done the projects</Description> */}
 
                 <ToggleButtonGroup>

@@ -19,7 +19,7 @@ import Footer from "./components/Footer/Footer";
 
 
 function App() {
-    const [darkMode, setDarkMode] = useState(true);
+    const [darkMode, setDarkMode] = useState(false);
     const [openModal, setOpenModal] = useState({ state: false, project: null });
 
     return (

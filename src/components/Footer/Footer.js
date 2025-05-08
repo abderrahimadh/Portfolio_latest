@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <FooterContainer>
             <FooterWrapper>
-                <Logo href="/">Abd ADH</Logo>
+                <Logo href="/">Abderrahim's Portfolio</Logo>
                 <NavItems>
                     <NavLink href="#Main">Home</NavLink>
                     <NavLink href="#AboutMe">About</NavLink>
