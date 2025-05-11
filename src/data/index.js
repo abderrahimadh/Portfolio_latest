@@ -54,17 +54,6 @@ export const skills = [
                     "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg",
             },
             {
-                name: "Styled-Components",
-                image:
-                    "./img/Styled-Components.png", //https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png
-            },
-           
-            {
-                name: "Material UI",
-                image:
-                    "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg",
-            },
-            {
                 name: "ShadCN",
                 image:
                     "https://avatars.githubusercontent.com/u/139895814?s=280&v=4",
@@ -79,6 +68,21 @@ export const skills = [
     {
         title: "Backend & Database",
         skills: [
+            {
+                name: "Spring Boot",
+                image:
+                    "https://i0.wp.com/e4developer.com/wp-content/uploads/2018/01/spring-boot.png?w=1300&ssl=1",
+            },
+            {
+                name: "MySQL",
+                image:
+                    "https://images.seeklogo.com/logo-png/9/2/mysql-logo-png_seeklogo-96578.png",
+            },
+            {
+                name: "PostrgreSQL",
+                image:
+                    "https://image.shutterstock.com/image-photo/image-260nw-2376072087.jpg",
+            },
             {
                 name: "Node JS",
                 image:
@@ -102,6 +106,10 @@ export const skills = [
         "title": "Deployment Strategies and Automation",
         "skills": [
             {
+                "name": "GitLab",
+                "image": "https://images.seeklogo.com/logo-png/27/2/gitlab-logo-png_seeklogo-273186.png"
+            },
+            {
                 "name": "Docker",
                 "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"
             },
@@ -110,8 +118,8 @@ export const skills = [
                 "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg"
             },
             {
-                "name": "Git",
-                "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"
+                "name": "Ansible",
+                "image": "https://images.seeklogo.com/logo-png/27/2/ansible-logo-png_seeklogo-272814.png"
             },
             {
                 "name": "Jenkins",

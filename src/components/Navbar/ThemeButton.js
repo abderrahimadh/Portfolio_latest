@@ -8,23 +8,20 @@ const ThemeButton = ({ onClick }) => {
     const [darkMode, setDarkMode] = useState(false);
     const theme = useTheme();
 
+    const toggleDarkMode = () => {
+        setDarkMode(!darkMode);  // Bascule le mode
+        if (onClick) onClick();  // Appelle le parent (optionnel)
+    };
+
     return (
         <ThemeContainer>
-            <ThemeLogo onClick={onClick} theme={theme}>
-                {
-                    darkMode ? (
-                        <Elements onClick={() => setDarkMode(true)}>
-                            <DarkModeRoundedIcon />
-                        </Elements>
-                    ) : (
-                        <Elements onClick={() => setDarkMode(false)}>
-                            <LightModeRoundedIcon />
-                        </Elements>
-                    )
-                }
+            <ThemeLogo onClick={toggleDarkMode} theme={theme}>
+                <Elements>
+                    {darkMode ? <DarkModeRoundedIcon /> : <LightModeRoundedIcon />}
+                </Elements>
             </ThemeLogo>
         </ThemeContainer>
     );
-}
+};
 
 export default ThemeButton;
