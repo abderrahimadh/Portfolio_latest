@@ -14,10 +14,10 @@ const ContactMe = () => {
 
         emailjs
             .sendForm(
-                "service_pq12zbb",
-                "template_bv9xyf6",
+                "service_j0km9bx",
+                "template_lkkboj7",
                 refForm.current,
-                "O00nt2KEZP8n3jiXD"
+                "vYbFAKjwDJ3uReJ19"
             )
             .then(
                 (result) => {
