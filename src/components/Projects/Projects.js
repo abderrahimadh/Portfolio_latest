@@ -1,73 +1,3 @@
-// import { Container, Wrapper, Title, ToggleButtonGroup, ToggleButton, Divider, CardContainer } from './ProjectsStyledComponent';
-// import { useState } from 'react';
-// import { projects } from '../../data/index';
-// import ProjectCard from "../Cards/ProjectCard";
-
-
-// const Projects = ({ openModal, setOpenModal }) => {
-//     const [toggle, setToggle] = useState('all');
-
-//     return (
-//         <Container id="Projects">
-//             <Wrapper>
-//                 <Title>FEATURED PROJECTS</Title>
-//                 {/* <Description>What I have done the projects</Description> */}
-
-//                 <ToggleButtonGroup>
-//                     {toggle === 'all' ?
-//                         <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
-//                         :
-//                         <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
-//                     }
-//                     <Divider />
-
-//                     {toggle === 'bootcamp' ?
-//                         <ToggleButton active value="bootcamp" onClick={() => setToggle('bootcamp')}>Bootcamp</ToggleButton>
-//                         :
-//                         <ToggleButton value="bootcamp" onClick={() => setToggle('bootcamp')}>Bootcamp</ToggleButton>
-//                     }
-//                     <Divider />
-
-//                     {toggle === 'web development' ?
-//                         <ToggleButton active value="web development" onClick={() => setToggle('web development')}>Web Development</ToggleButton>
-//                         :
-//                         <ToggleButton value="web development" onClick={() => setToggle('web development')}>Web Development</ToggleButton>
-//                     }
-//                     <Divider />
-
-//                     {toggle === 'data science' ?
-//                         <ToggleButton active value="data science" onClick={() => setToggle('data science')}>Data Science</ToggleButton>
-//                         :
-//                         <ToggleButton value="data science" onClick={() => setToggle('data science')}>Data Science</ToggleButton>
-//                     }
-//                     <Divider />
-
-//                     {toggle === 'object oriented program' ?
-//                         <ToggleButton active value="object oriented program" onClick={() => setToggle('object oriented program')}>Object Oriented Programming</ToggleButton>
-//                         :
-//                         <ToggleButton value="object oriented program" onClick={() => setToggle('object oriented program')}>Object Oriented Programming</ToggleButton>
-//                     }
-//                 </ToggleButtonGroup>
-
-//                 <CardContainer>
-//                     {toggle === 'all' && projects
-//                         .map((project) => (
-//                             <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal} />
-//                         ))}
-//                     {projects
-//                         .filter((item) => item.category === toggle)
-//                         .map((project) => (
-//                             <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal} />
-//                         ))}
-//                 </CardContainer>
-
-//             </Wrapper>
-//         </Container >
-//     );
-// }
-
-// export default Projects;
-
 import { Container, Wrapper, Title, ToggleButtonGroup, ToggleButton, Divider, CardContainer } from './ProjectsStyledComponent';
 import { useState } from 'react';
 import { projects } from '../../data/index';
@@ -81,60 +11,39 @@ const Projects = ({ openModal, setOpenModal }) => {
         <Container id="Projects">
             <Wrapper>
                 <Title>My PROJECTS</Title>
-                {/* <Description>What I have done the projects</Description> */}
 
                 <ToggleButtonGroup>
-                    {toggle === 'all' ?
-                        <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
-                        :
-                        <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
-                    }
+                    <ToggleButton active={toggle === 'all'} value="all" onClick={() => setToggle('all')}>
+                        All
+                    </ToggleButton>
                     <Divider />
 
-                    {toggle === 'bootcamp' ?
-                        <ToggleButton active value="bootcamp" onClick={() => setToggle('bootcamp')}>SaaS/Startup</ToggleButton>
-                        :
-                        <ToggleButton value="bootcamp" onClick={() => setToggle('bootcamp')}>SaaS/Startup</ToggleButton>
-                    }
+                    <ToggleButton active={toggle === 'CI/CD DevOps'} value="CI/CD DevOps" onClick={() => setToggle('CI/CD DevOps')}>
+                        CI/CD DevOps
+                    </ToggleButton>
+
+                    <ToggleButton active={toggle === 'Security / Pentest'} value="Security / Pentest" onClick={() => setToggle('Security / Pentest')}>
+                        Security / Pentest
+                    </ToggleButton>
                     <Divider />
 
-                    {toggle === 'web development' ?
-                        <ToggleButton active value="web development" onClick={() => setToggle('web development')}>Full Stack Apps</ToggleButton>
-                        :
-                        <ToggleButton value="web development" onClick={() => setToggle('web development')}>Full Stack Apps</ToggleButton>
-                    }
+                    <ToggleButton active={toggle === 'Full Stack'} value="Full Stack" onClick={() => setToggle('Full Stack')}>
+                        Full Stack
+                    </ToggleButton>
                     <Divider />
 
-                    {toggle === 'data science' ?
-                        <ToggleButton active value="data science" onClick={() => setToggle('data science')}>ReactJs</ToggleButton>
-                        :
-                        <ToggleButton value="data science" onClick={() => setToggle('data science')}>ReactJs</ToggleButton>
-                    }
-                    <Divider />
-
-                    {toggle === 'open source' ?
-                        <ToggleButton active value="open source" onClick={() => setToggle('open source')}>Open-Source</ToggleButton>
-                        :
-                        <ToggleButton value="open source" onClick={() => setToggle('open source')}>Open-Source</ToggleButton>
-                    }
-                    <Divider />
-
-{toggle === 'Dockerized/AWS deployed' ?
-    <ToggleButton active value="Dockerized/AWS deployed" onClick={() => setToggle('Dockerized/AWS deployed')}>Dockerized/AWS deployed</ToggleButton>
-    :
-    <ToggleButton value="Dockerized/AWS deployed" onClick={() => setToggle('Dockerized/AWS deployed')}>Dockerized/AWS deployed</ToggleButton>
-}
                 </ToggleButtonGroup>
+
 
                 <CardContainer>
                     {toggle === 'all' && projects
                         .map((project) => (
-                            <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal} />
+                            <ProjectCard key={project.id} project={project} openModal={openModal} setOpenModal={setOpenModal} />
                         ))}
-                    {projects
+                    {toggle !== 'all' && projects
                         .filter((item) => item.category === toggle)
                         .map((project) => (
-                            <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal} />
+                            <ProjectCard key={project.id} project={project} openModal={openModal} setOpenModal={setOpenModal} />
                         ))}
                 </CardContainer>
 

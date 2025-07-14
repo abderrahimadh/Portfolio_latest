@@ -181,913 +181,150 @@ export const skills = [
 ];
 
 export const projects = [
-     
     {
-        id: 15,
-        title: "SmartGenAI: Content Generation Platform",
-date: "Jul 2024 - sep 2024",
-description: "SmartGenAI is a SaaS application designed to help users generate high-quality content across various platforms. It simplifies and accelerates content creation for blogs, YouTube, and more.",
-descriptionDetails: [
-    "Blog Title Generator: Create captivating and SEO-friendly blog titles.",
-    "Blog Content Generator: Automatically generate entire blog posts tailored to your topic.",
-    "Blog Ideas Generator: Get unique blog ideas to inspire your writing.",
-    "YouTube Tag Generator: Generate relevant tags to boost YouTube video visibility.",
-    "YouTube Description Generator: Craft detailed descriptions to optimize video SEO.",
-    "YouTube SEO Title Generator: Create SEO-optimized titles for better ranking on YouTube.",
-    "Article Rewriter: Instantly rewrite any content for a fresh perspective.",
-    "Text Improver: Enhance text readability and quality, making it more engaging.",
-        ],
-        img: "./img/genai.png",
-        skills: [
-            "Next.js",
-            "Tailwind CSS",
-            "Typescript",
-            "React.js",
-            "GeminiApi",
-            "Neon postgress database",
-            "Vercel",
-            
-        ],
-        category: "web development",
-        github: "https://github.com/ashiii1/SmartGenAi",
-        website: "https://smart-gen-ai-a.vercel.app/",
-        members: [
-            {
-                name: "Abd ADH",
-                img: "./img/avat.jpeg",
-                github: "https://github.com/abderrahimadh",
-                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
-            },
-        ],
-    },
-     
-    {
-        id: 16,
-        title: "Dynamic Form Builder SaaS",
-date: "Jun 2024 - july 2024",
-description: "A powerful platform for creating, customizing, and sharing dynamic forms with seamless user authentication and payment integration.",
-descriptionDetails: [
-    "Dynamic Form Creation: Users can create, edit, and delete fields to build highly customized forms.",
-    "Customization Options: Full control over form themes, colors, and layouts for a personalized experience.",
-    "User Authentication: Secure user authentication powered by Clerk, ensuring privacy and data security.",
-    "Form Sharing: Easily share form links with others for quick collaboration and feedback.",
-    "Stripe Integration: Upgrade to premium features through secure payments using Stripe.",
-    "Real-Time Updates: Forms and changes are instantly updated to provide users with a smooth and responsive experience."
-        ],
-        img: "./img/formai.png",
-        skills: [
-            "Next.js",
-            "Tailwind CSS",
-            "Javacript",
-            "React.js",
-            "GeminiApi",
-            "Neon postgress database",
-            "Vercel",
-            
-        ],
-        category: "web development",
-        github: "https://github.com/ashiii1/ZenXForm-Nextjs-SaaS",
-        website: "https://zen-x-form.vercel.app/",
-        members: [
-            {
-                name: "Abd ADH",
-                img: "./img/avat.jpeg",
-                github: "https://github.com/abderrahimadh",
-                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
-            },
-        ],
-    },
-     
-    {
-        id: 17,
-        title: "PromptAI: chatgptPro Platform",
-        date: "Jul 2024 - sep 2024",
-        description: "PromptAI is a dynamic Next.js project built with JavaScript, Tailwind CSS, and GeminiAPI, designed to generate content based on user prompts. It offers AI-powered solutions to generate images, videos, and various types of content, providing relevant sources for every query.",
+        id: 1,
+        title: "CI/CD DevOps Pipeline for Java App",
+        date: "April-May 2025",
+        description: "Automated CI/CD pipeline using Jenkins, Docker, Kubernetes, and AWS.",
         descriptionDetails: [
-            "Ask Anything: AI responds with accurate, relevant sources based on user prompts.",
-            "Image Generation: Create stunning visuals based on AI interpretations of your prompts.",
-            "Video Generation: Easily generate videos tailored to the user’s specifications.",
-            "Content Creation: From blog posts to social media descriptions, AI generates diverse types of content.",
-            "Seamless Experience: The AI system is built to be intuitive, offering quick and reliable content for a variety of use cases."
+            "Built pipeline for building, testing, scanning, and deploying Java apps.",
+            "Integrated SonarQube, Trivy, Nexus for code quality and artifact management.",
+            "Deployed on Kubernetes with monitoring using Prometheus and Grafana."
         ],
-        img: "./img/promptai.png",
-        skills: [
-            "Next.js",
-            "Tailwind CSS",
-            "Javacript",
-            "React.js",
-            "GeminiApi",
-            "Neon postgress database",
-            "Vercel",
-            
-        ],
-        category: "web development",
-        github: "https://github.com/ashiii1/PromptAi-NextJs",
-        website: "https://prompt-ai-henna.vercel.app/",
+        img: "./img/projects/architecture.webp",
+        skills: ["Jenkins", "Docker", "Kubernetes", "Prometheus", "Grafana", "AWS", "Nexus", "Trivy"],
+        category: "CI/CD DevOps",
+        github: "https://github.com/abderrahimadh/CI_CD",
+        website: "https://github.com/abderrahimadh/CI_CD",
         members: [
             {
                 name: "Abd ADH",
                 img: "./img/avat.jpeg",
                 github: "https://github.com/abderrahimadh",
-                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
-            },
-        ],
+                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/"
+            }
+        ]
     },
-
-
-
-    
     {
-        id: 14,
-        title: "Responsive Landing Page Templates",
-        date: "Jul 2023 - Nov 2023",
-        description: "Fully responsive and SEO-optimized landing page templates with Tailwind CSS for rapid development",
-        descriptionDetails: [
-            "Responsive design ensuring optimal display across all devices",
-            "Technical SEO optimization using correct tags like h1, h2, and sections",
-            "Tailwind CSS built-in with `tw-` prefixed classes for quick and organized styling",
-            "Quick customization by simply updating the texts for rapid deployment",
-            "Frontend framework independent: Includes essential HTML and CSS, easily extendable with frameworks like React or Vue",
-            "Ideal for developers with tight deadlines, freelancers, SaaS developers, and app developers needing quick landing pages",
-            "Perfect for beginners learning HTML, CSS, and JavaScript, and for those seeking design inspiration"
-        ],
-        img: "./img/wow.png",
-        skills: [
-            "HTML5",
-            "Tailwind CSS",
-            "Responsive Design",
-            "SEO Optimization",
-            "JavaScript",
-            
-        ],
-        category: "web development",
-        github: "https://github.com/ashiii1/Download-Templates",
-        website: "https://master--landingtemplates.netlify.app/",
-        members: [
-            {
-                name: "Abd ADH",
-                img: "./img/avat.jpeg",
-                github: "https://github.com/abderrahimadh",
-                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
-            },
-        ],
-    },
-
-    {
-        
         id: 2,
-        title: "EasyExplore - Travel Planning Application",
-        date: "Jul 2023 - Nov 2023",
-        description: "Travel Planning Platform",
+        title: "AWS Cloud Pentesting",
+        date: "March-June 2025",
+        description: "Security audit and pentest automation suite for AWS (EC2, RDS, S3, IAM).",
         descriptionDetails: [
-          "EasyExplore is a user-friendly travel planning application designed to help users discover nearby attractions, hotels, restaurants, and more based on their trip location.",
-          "The application provides a seamless experience for planning and exploring travel destinations, making trip management easy and efficient.",
-          "Users can explore various points of interest tailored to their preferences, such as tourist spots, dining options, and accommodations, all in one place.",
-          "Interactive maps allow users to visually explore areas of interest, with intuitive navigation to guide them from one location to another.",
-          "The platform also offers comprehensive search and filter options for refining travel choices based on factors like budget, distance, and type of attraction.",
-          "Integrated booking features enable users to make hotel and restaurant reservations directly within the app, streamlining the process and saving time.",
-          "EasyExplore’s responsive design ensures that the experience is optimized across all devices, whether accessed via mobile, tablet, or desktop.",
-          "Real-time reviews, ratings, and recommendations give users insights into the best places to visit, enhancing the decision-making process.",
-          "Customizable trip itineraries let users plan their days effectively, with options to save and share their plans with fellow travelers."
-        
-    ],
-    img: "./img/easytrip.png",
-    skills: [
-        "React JS",
-        "React Router",
-        "Tailwind css",
-        "Travel Advisor Api",
-        "Google Map Api",
-        "JavaScript"
-    ],
-    category: "data science",
-    github: "https://github.com/ashiii1/Easy-Tripp",
-    website: "https://easy-tripp.vercel.app/",
-    members: [
-        {
-            name: "Abd ADH",
-            img: "./img/avat.jpeg",
-            github: "https://github.com/abderrahimadh",
-            linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
-        },
-    ],
-},
-    {
-        id: 0,
-  title: "LMS-EduPlatform",
-  date: "Aug 2024 - Sep 2024",
-  description: "Learning Management System - EduOcean",
-  descriptionDetails: [
-    "Developed a comprehensive Learning Management System (LMS) offering both paid and free courses, complete with admin and student functionalities",
-    "Course Management: Admins can add new courses, delete existing ones, manage course videos, and create assessments",
-    "Student Login/Register: Students can register, enroll in courses, access their enrolled content, and remove courses from their list",
-    "Live Classes with Interactive Features: Conduct video and audio sessions with features like hand raise, muting, messaging, emoji reactions, room locking, screen sharing, and whiteboard usage",
-    "Dynamic Assessments: Admins and educators can create assessments by selecting categories, determining question numbers, setting difficulty levels, and including countdown timers",
-    "Student Queries: Students can ask questions, like others’ questions, and respond with answers in a community-like environment",
-    "Detailed About Page: Displays faculty information, overall enrollment data, and platform impressions",
-    "Contact Us Page: Includes contact details such as email, phone numbers, social media links, and physical address",
-    "Responsive and Scalable Design: The platform is fully responsive and performs seamlessly across all devices",
-    "Technologies: Built using React.js, Node.js, Express, MongoDB, Vercel, and Render"
+            "Simulated attacks like brute-force, misconfigured access, and privilege escalation.",
+            "Generated risk reports in HTML using Jinja2 templates.",
+            "Used Nmap, SQLMap, FFUF, ZAP, and more."
         ],
-        img: "./img/lms.png",
-       "skills": [
-    "React.js",
-    "Node.js",
-    "Express",
-    "MongoDB",
-    "Tailwind CSS",
-    "Render",
-    "Vercel"
-  ],
-        category: "web development",
-        github: "https://github.com/ashiii1/EduOcean",
-        website: "https://edu-ocean-j2qa.vercel.app/",
+        img: "./img/projects/pentest.jpg",
+        skills: ["AWS", "Python", "Nmap", "SQLMap", "OWASP ZAP", "CloudSploit", "Jinja2"],
+        category: "Security / Pentest",
+        github: "https://github.com/abderrahimadh/Pentest_project",
+        website: "https://github.com/abderrahimadh/Pentest_project",
         members: [
             {
                 name: "Abd ADH",
                 img: "./img/avat.jpeg",
                 github: "https://github.com/abderrahimadh",
-                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
-            },
-        ],
+                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/"
+            }
+        ]
     },
     {
-
-    id: 1,
-  title: "AIO - Comprehensive Multi-Category Platform",
-  date: "June 2024 - Aug 2024",
-  description: "All-in-One E-commerce and Service Solution - AIO",
-  descriptionDetails: [
-    "AIO is the ultimate all-in-one platform for all your shopping and service needs, offering everything from food ordering to furniture shopping in a single, seamless experience",
-    "Multi-Category Offering: Explore categories like food ordering, online shopping, groceries, real estate, and furniture, all within a unified platform",
-    "Food Ordering Website: Conveniently browse restaurants, order your favorite meals, and track deliveries",
-    "Shopping Website: Access a vast range of products from fashion to electronics, with tailored recommendations and easy checkout",
-    "Grocery Website: Shop for fresh produce and daily essentials with scheduled deliveries and bulk buying options",
-    "Furniture Website: Find stylish and functional furniture for every room, with options for customization and home delivery",
-    "Real Estate Services: Explore property listings for rent or purchase, with advanced search filters and detailed information",
-    "Admin Features: Full control over managing products, categories, properties, user accounts, and comprehensive analytics",
-    "User Profiles: Personalized experiences with saved preferences, order history, and tailored recommendations",
-    "Secure Payment Integration: Supports multiple payment methods, ensuring secure and fast transactions across all categories",
-    "Responsive Design and UI: AIO offers a smooth and consistent user experience across devices, making it accessible anytime, anywhere",
-    "Built on the MERN Stack: The platform is powered by React, Node.js, Express, and MongoDB, ensuring robust performance and scalability",
-    "Fully Deployed and Scalable: Hosted on Render.com, providing high availability for both frontend and backend services"
-  ],
-  img:"./img/aio.png",
-        skills: [
-            "React JS",
-            "MongoDB",
-            "NodeJS/ExpressJS",
-            "RESTful APIs",
-            "Render",
-            "Vercel"
+        id: 3,
+        title: "Hotel Reservation App",
+        date: "October-December 2024",
+        description: "Angular + Spring Boot based hotel booking system with secure login.",
+        descriptionDetails: [
+            "Developed Angular frontend with room filtering and availability.",
+            "Built RESTful API with Spring Boot and integrated JWT authentication.",
+            "Used MySQL for relational data management."
         ],
-        category: "web development",
-        github: "https://github.com/ashiii1/AIO---All-In-One",
-        website: "https://aio-blush.vercel.app/",
+        img: "./img/projects/hotel.jpg",
+        skills: ["Angular", "Spring Boot", "MySQL", "Bootstrap"],
+        category: "Full Stack",
+        github: "https://github.com/abderrahimadh/Hotel_frontend",
+        website: "https://github.com/abderrahimadh/Hotel_Backend",
         members: [
             {
                 name: "Abd ADH",
                 img: "./img/avat.jpeg",
                 github: "https://github.com/abderrahimadh",
-                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
-            },
-        ],
+                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/"
+            }
+        ]
     },
-
-
     {
         id: 4,
-        title: "SaaS/Startup Documentation",
-        date: "July 2024",
-        description: "Next.js Template for Startups and SaaS Platforms",
+        title: "Products Catalog Platform",
+        date: "September-October 2024",
+        description: "Interactive catalog built with Angular and Firestore for seamless product browsing.",
         descriptionDetails: [
-            "This Next.js template is designed specifically for startups and SaaS platforms, providing a comprehensive framework to quickly launch and customize your product.",
-            "Features include detailed sections for product overviews, blogs, pricing strategies, and user and developer information. It also includes contributing guides to help onboard new developers and collaborators.",
-            "The template is optimized for performance and scalability, ensuring that your SaaS product not only looks great but also functions efficiently as it grows.",
-            "With built-in support for dynamic content and integration with various tools and services, this documentation template is ideal for showcasing your product and guiding users through its features."
+            "Created a dynamic Angular app for product listing with search and filtering.",
+            "Used Firestore as the backend for real-time data syncing.",
+            "Responsive UI design using Bootstrap."
         ],
-        img:"./img/saasdoc.png",
-        skills: [
-            "Next.js",
-            "React.js",
-            "TypeScript",
-            ".md",
-            "Tailwind CSS",
-            "Node JS",          
-            "Git",
-        ],
-        category: "bootcamp",
-        github: "https://github.com/ashiii1/Startup-SaaS-Documentation",
-        website: "https://startup-saas-documentation.vercel.app/",
+        img: "./img/projects/catal.png",
+        skills: ["Angular", "Bootstrap", "Firestore"],
+        category: "Full Stack",
+        github: "https://github.com/abderrahimadh/My-shop",
+        website: "https://github.com/abderrahimadh/My-shop",
         members: [
             {
                 name: "Abd ADH",
                 img: "./img/avat.jpeg",
                 github: "https://github.com/abderrahimadh",
-                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
-            },
-           
-        ],
+                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/"
+            }
+        ]
     },
-{
-id: 5,
-    title: "SaaS/Startup Landing Page",
-    date: "June 2024",
-    description: "Next.js Template for Startups and SaaS Platforms",
-    descriptionDetails: [
-        "A versatile Next.js landing page template designed for SaaS platforms and startups. Easily customizable with dynamic sections for showcasing features, testimonials, and pricing.",
-        "This template includes sections for product overviews, blogs, pricing strategies, and user and developer information. It also features contributing guides for onboarding new developers and collaborators.",
-        "Tailored for quick deployment, responsive design, and seamless branding adjustments. It is optimized for performance and scalability, ensuring a great look and efficient function as your SaaS product grows.",
-        "With built-in support for dynamic content and integration with various tools and services, this documentation template is perfect for showcasing your product and guiding users through its features."
-    ],
-    img: "./img/saas.png",
-    skills: [
-        "Next.js",
-        "React.js",
-        "TypeScript",
-        "Node.js",
-        ".md",
-        "Tailwind CSS"
-    ],
-        category: "bootcamp",
-        github: "https://github.com/ashiii1/SaaS-Startup-LandingPage",
-        website: "https://saas-startup-landing-page-rkfuvookg-ashis-projects-e33ce122.vercel.app/",
+    {
+        id: 5,
+        title: "HR Management Application",
+        date: "2024",
+        description: "Next.js + PostgreSQL HR platform with attendance, leave tracking, and role-based access.",
+        descriptionDetails: [
+            "Developed features for attendance, leave requests, and performance tracking.",
+            "Enabled role-based access and secure authentication.",
+            "Used Prisma for ORM and shadcn/ui for styling."
+        ],
+        img: "./img/projects/employee.png",
+        skills: ["Next.js", "PostgreSQL", "Prisma", "shadcn/ui"],
+        category: "Full Stack",
+        github: "https://github.com/abderrahimadh/RH-App",
+        website: "https://github.com/abderrahimadh/RH-App",
         members: [
             {
                 name: "Abd ADH",
                 img: "./img/avat.jpeg",
                 github: "https://github.com/abderrahimadh",
-                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
-            },
-        ],
+                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/"
+            }
+        ]
     },
-
     {
         id: 6,
-        title: "GitLy",
-        date: "Ongoing",
-        description: "GitLy - Enhance Your GitHub Experience",
+        title: "Sports Field Reservation App",
+        date: "November-December 2023",
+        description: "Java and React-based platform to manage sports field reservations and avoid scheduling conflicts.",
         descriptionDetails: [
-            "GitLy is a powerful tool designed to enhance your GitHub experience by providing a comprehensive way to search and explore GitHub users and their repositories.",
-            "Easily access user profiles, bios, social links, and repositories, with advanced filtering options to find exactly what you need.",
-            "Features include searching users, viewing detailed profiles, exploring repositories with sorting options, and language-based search.",
-            "Contributing is welcomed, and the project is licensed under the MIT License."
+            "Developed a robust system with Java backend for efficient reservation handling.",
+            "Integrated React frontend for intuitive booking and schedule visualization.",
+            "Optimized resource availability and conflict detection using backend logic."
         ],
-        img:"./img/gitly.png",
-        skills: [
-            "React JS",
-            "Node JS",
-            "Express JS",
-            "GitHub API",
-            "JavaScript",
-            "Tailwind CSS"
-
-        ],
-        category: "web development",
-        
-        github: "https://github.com/ashiii1/GitLy",
-        website: "https://gitly-mu.vercel.app/",
+        img: "./img/projects/booking.png",
+        skills: ["Java", "React", "Spring", "MySQL"],
+        category: "Full Stack",
+        github: "https://github.com/abderrahimadh/Sports-Fields-Booking-App",
+        website: "https://github.com/abderrahimadh/Sports-Fields-Booking-App",
         members: [
             {
                 name: "Abd ADH",
                 img: "./img/avat.jpeg",
                 github: "https://github.com/abderrahimadh",
-                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
-            },
-        ],
-    },
-
-    {
-        id: 7,
-        title: "Tolet-RealEState",
-        date: "Jul 2023 - Nov 2023",
-        description: "React JS - Real Estate Listing App",
-        descriptionDetails: [
-            "Developed a real estate platform allowing users to browse properties by location and price range",
-            "Implemented advanced filtering options including price, location, property type, and amenities",
-            "Integrated interactive maps using Leaflet.js for property location visualization",
-            "Created property detail pages with images, descriptions, and contact forms for inquiries",
-            "Designed a professional and sleek UI using Tailwind CSS with a focus on accessibility",
-            "Added user authentication and property saving for logged-in users",
-            "Integrated responsive design for seamless browsing on all devices",
-            "Managed global state with Redux for smooth and consistent user experience"
-        ],
-        img: "./img/tolet.png",
-        skills: [
-            "React JS",
-            "React Router",
-            "Redux Toolkit",
-            "Tailwind CSS",
-            "JavaScript",
-            "Leaflet.js"
-        ],
-    
-        category: "data science",
-        github: "https://github.com/ashiii1/Tolet",
-        website: "https://tolet-m.vercel.app/",
-        members: [
-            {
-                name: "Abd ADH",
-                img: "./img/avat.jpeg",
-                github: "https://github.com/abderrahimadh",
-                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
-            },
-        ],
-    },
-
-    {
-        id: 8,
-        title: "Food App",
-        date: "Jul 2023 - Nov 2023",
-        description: "React JS - Food Recipe App",
-        descriptionDetails: [
-            "Developed a responsive food recipe app with React and Tailwind CSS",
-            "Implemented category filtering for recipes with dynamic updates",
-            "Created a shopping cart with real-time updates and item quantity adjustments",
-            "Integrated real-time payment using Stripe API for smooth checkout",
-            "Designed a beautiful and user-friendly UI with Tailwind CSS",
-            "Integrated search functionality to filter recipes by name or ingredients",
-            "Implemented pagination and infinite scrolling for large recipe databases",
-            "Optimized state management with Redux Toolkit"
-        ],
-        img: "./img/food.png",
-        skills: [
-            "React JS",
-            "React Router",
-            "Redux Toolkit",
-            "JavaScript",
-            "Stripe API"
-        ],
-    
-        category: "data science",
-        github: "https://github.com/ashiii1/AIO---All-In-One/tree/main/aio/src/cards/FoodOrder",
-        website: "https://aio-blush.vercel.app/food-order",
-        members: [
-            {
-                name: "Abd ADH",
-                img: "./img/avat.jpeg",
-                github: "https://github.com/abderrahimadh",
-                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
-            },
-        ],
-    },
-    
-
-    {
-        id: 9,
-        title: "Grocery App",
-        date: "Jul 2023 - Nov 2023",
-        description: "React JS - Online Grocery Shopping App",
-        descriptionDetails: [
-            "Built a fully functional online grocery shopping app with React and Tailwind CSS",
-            "Implemented category filtering for products with dynamic search and sorting options",
-            "Created a user-friendly shopping cart with real-time updates and discount calculations",
-            "Integrated payment gateway for seamless and secure transactions",
-            "Developed a clean and modern UI using Tailwind CSS with focus on UX",
-            "Added product details pages with options to select quantity and add to cart",
-            "Optimized for mobile devices with responsive design",
-            "Managed state effectively with Redux Toolkit for better performance"
-        ],
-        img: "./img/grocery.png",
-        skills: [
-            "React JS",
-            "React Router",
-            "Redux Toolkit",
-            "Tailwind CSS",
-            "JavaScript",
-            "Stripe API"
-        ],
-        category: "data science",
-        github: "https://github.com/ashiii1/AIO---All-In-One/tree/main/aio/src/cards/Grocery",
-        website: "https://aio-blush.vercel.app/grocery",
-        members: [
-            {
-                name: "Abd ADH",
-                img: "./img/avat.jpeg",
-                github: "https://github.com/abderrahimadh",
-                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
-            },
-        ],
-    },
-
-    {
-        id: 10,
-        title: "Shopping App",
-        date: "Jul 2023 - Nov 2023",
-        description: "React JS - E-commerce Shopping App",
-        descriptionDetails: [
-            "Developed an e-commerce shopping platform with categories for men, women, and accessories",
-            "Implemented advanced filtering options for products by size, color, brand, and price",
-            "Designed a recommendation system to show similar products based on user preferences",
-            "Integrated a secure payment gateway with options for credit cards, digital wallets, and more",
-            "Created a stylish and responsive UI using Tailwind CSS, enhancing user experience across devices",
-            "Built product detail pages with zoomable images, reviews, and related items",
-            "Implemented a shopping cart with real-time updates and order summary",
-            "Used Redux Toolkit for optimized state management and smooth navigation"
-        ],
-        img: "./img/shopping.png",
-        skills: [
-            "React JS",
-            "React Router",
-            "Redux Toolkit",
-            "Tailwind CSS",
-            "JavaScript",
-            "Stripe API"
-        ],
-        category: "data science",
-        github: "https://github.com/ashiii1/AIO---All-In-One/tree/main/aio/src/cards/Shopping",
-        website: "https://aio-blush.vercel.app/shopping",
-        members: [
-            {
-                name: "Abd ADH",
-                img: "./img/avat.jpeg",
-                github: "https://github.com/abderrahimadh",
-                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
-            },
-        ],
-    
-    },
-
-    {
-        id: 11,
-        title: "Book store",
-        date: "Jul 2023 - Nov 2023",
-        description: "React JS - Online Bookstore with 1000+ Titles",
-        descriptionDetails: [
-            "Built an online bookstore offering a wide selection of over 1000+ books across various genres",
-            "Implemented category filtering and search options to browse books by genre, author, and rating",
-            "Designed a clean and intuitive UI with Tailwind CSS for easy navigation",
-            "Added features to view detailed book information including descriptions, reviews, and ratings",
-            "Integrated a recommendation system to display similar books based on user interest",
-            "Developed a wishlist and shopping cart with real-time updates and item management",
-            "Optimized for mobile and desktop devices with a responsive and consistent design",
-            "Managed global state using Redux Toolkit for scalable and efficient state handling"
-        ],
-        img: "./img/book.png",
-        skills: [
-            "React JS",
-            "React Router",
-            "Redux Toolkit",
-            "Tailwind CSS",
-            "JavaScript"
-        ],
-        category: "data science",
-        github: "https://github.com/ashiii1/AIO---All-In-One/tree/main/aio/src/cards/BookShop",
-        website: "https://aio-blush.vercel.app/books",
-        members: [
-            {
-                name: "Abd ADH",
-                img: "./img/avat.jpeg",
-                github: "https://github.com/abderrahimadh",
-                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
-            },
-        ],
-    },
-
-
-
-
-
-
-
-
-
-    {
-        
-        id: 18,
-        title: "Optimized chatbot input",
-        date: "Sep 2024 - Sep 2024",
-        description: "– Optimized Chatbot Input - React.js, Javascript, Html, JSON Implemented a question selection feature in a chatbot application,enhancing user experience by allowing direct question input .",
-        descriptionDetails: [
-          "EasyExplore is a user-friendly travel planning application designed to help users discover nearby attractions, hotels, restaurants, and more based on their trip location.",
-          "The application provides a seamless experience for planning and exploring travel destinations, making trip management easy and efficient.",
-          "Users can explore various points of interest tailored to their preferences, such as tourist spots, dining options, and accommodations, all in one place.",
-          "Interactive maps allow users to visually explore areas of interest, with intuitive navigation to guide them from one location to another.",
-          "The platform also offers comprehensive search and filter options for refining travel choices based on factors like budget, distance, and type of attraction.",
-          "Integrated booking features enable users to make hotel and restaurant reservations directly within the app, streamlining the process and saving time.",
-          "EasyExplore’s responsive design ensures that the experience is optimized across all devices, whether accessed via mobile, tablet, or desktop.",
-          "Real-time reviews, ratings, and recommendations give users insights into the best places to visit, enhancing the decision-making process.",
-          "Customizable trip itineraries let users plan their days effectively, with options to save and share their plans with fellow travelers."
-        
-    ],
-    img: "./img/two.png",
-    skills: [
-        "React JS",
-        "React Router",
-        "Tailwind css",
-        "Travel Advisor Api",
-        "Google Map Api",
-        "JavaScript"
-    ],
-    category: "open source",
-    github: "https://github.com/PB2204/Sunday/pull/15",
-    website: "https://github.com/PB2204/Sunday/pull/15",
-    members: [
-        {
-            name: "Abd ADH",
-            img: "./img/avat.jpeg",
-            github: "https://github.com/abderrahimadh",
-            linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
-        },
-    ],
-},
-
-{
-        
-    id: 19,
-    title: "Dynamic Category Selection",
-    date: "Jun 2024 - Jun 2024",
-    description: "Category Selector - React.js, Javascript, API :- Dynamic bookcategory selection feature that enhances user experience by allowing users to easily browse and access relevant book through API",
-    descriptionDetails: [
-      "EasyExplore is a user-friendly travel planning application designed to help users discover nearby attractions, hotels, restaurants, and more based on their trip location.",
-      "The application provides a seamless experience for planning and exploring travel destinations, making trip management easy and efficient.",
-      "Users can explore various points of interest tailored to their preferences, such as tourist spots, dining options, and accommodations, all in one place.",
-      "Interactive maps allow users to visually explore areas of interest, with intuitive navigation to guide them from one location to another.",
-      "The platform also offers comprehensive search and filter options for refining travel choices based on factors like budget, distance, and type of attraction.",
-      "Integrated booking features enable users to make hotel and restaurant reservations directly within the app, streamlining the process and saving time.",
-      "EasyExplore’s responsive design ensures that the experience is optimized across all devices, whether accessed via mobile, tablet, or desktop.",
-      "Real-time reviews, ratings, and recommendations give users insights into the best places to visit, enhancing the decision-making process.",
-      "Customizable trip itineraries let users plan their days effectively, with options to save and share their plans with fellow travelers."
-    
-],
-img: "./img/three.png",
-skills: [
-    "React JS",
-    "React Router",
-    "Tailwind css",
-    "Travel Advisor Api",
-    "Google Map Api",
-    "JavaScript"
-],
-category: "open source",
-github: "https://github.com/MLSA-UET-Lahore-NC/BookWise-Frontend/pull/3",
-website: "https://github.com/MLSA-UET-Lahore-NC/BookWise-Frontend/pull/3",
-members: [
-    {
-        name: "Abd ADH",
-        img: "./img/avat.jpeg",
-        github: "https://github.com/abderrahimadh",
-        linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
-    },
-],
-},
-
-{
-        
-    id: 20,
-    title: "Enhanced react-otp-input Library",
-    date: "Jun 2024 - Jun 2024",
-    description: "– Enhanced Library - NEXT.js, React..js, Javascript, Library : - Contributed to the react-otp-input library by adding features for customizable colors, company name, and logo upload, enhancing its usability for developers in building branded applications.",
-    descriptionDetails: [
-      "EasyExplore is a user-friendly travel planning application designed to help users discover nearby attractions, hotels, restaurants, and more based on their trip location.",
-      "The application provides a seamless experience for planning and exploring travel destinations, making trip management easy and efficient.",
-      "Users can explore various points of interest tailored to their preferences, such as tourist spots, dining options, and accommodations, all in one place.",
-      "Interactive maps allow users to visually explore areas of interest, with intuitive navigation to guide them from one location to another.",
-      "The platform also offers comprehensive search and filter options for refining travel choices based on factors like budget, distance, and type of attraction.",
-      "Integrated booking features enable users to make hotel and restaurant reservations directly within the app, streamlining the process and saving time.",
-      "EasyExplore’s responsive design ensures that the experience is optimized across all devices, whether accessed via mobile, tablet, or desktop.",
-      "Real-time reviews, ratings, and recommendations give users insights into the best places to visit, enhancing the decision-making process.",
-      "Customizable trip itineraries let users plan their days effectively, with options to save and share their plans with fellow travelers."
-    
-],
-img: "./img/five.png",
-skills: [
-    "React JS",
-    "React Router",
-    "Tailwind css",
-    "Travel Advisor Api",
-    "Google Map Api",
-    "JavaScript"
-],
-category: "open source",
-github: "https://github.com/devfolioco/react-otp-input/pull/457",
-website: "https://github.com/devfolioco/react-otp-input/pull/457",
-members: [
-    {
-        name: "Abd ADH",
-        img: "./img/avat.jpeg",
-        github: "https://github.com/abderrahimadh",
-        linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
-    },
-],
-},
-
-
-{
-        
-    id: 21,
-    title: "Figma Design to Code",
-    date: "Aug 2024 - Aug 2024",
-    description: "– Figma to Code - HTML, CSS, Javascript :- Contributed to an open-source project by transforming a Figma design into a functional web interface, providing developers with a useful blueprint to integrate into their code.",
-    descriptionDetails: [
-      "EasyExplore is a user-friendly travel planning application designed to help users discover nearby attractions, hotels, restaurants, and more based on their trip location.",
-      "The application provides a seamless experience for planning and exploring travel destinations, making trip management easy and efficient.",
-      "Users can explore various points of interest tailored to their preferences, such as tourist spots, dining options, and accommodations, all in one place.",
-      "Interactive maps allow users to visually explore areas of interest, with intuitive navigation to guide them from one location to another.",
-      "The platform also offers comprehensive search and filter options for refining travel choices based on factors like budget, distance, and type of attraction.",
-      "Integrated booking features enable users to make hotel and restaurant reservations directly within the app, streamlining the process and saving time.",
-      "EasyExplore’s responsive design ensures that the experience is optimized across all devices, whether accessed via mobile, tablet, or desktop.",
-      "Real-time reviews, ratings, and recommendations give users insights into the best places to visit, enhancing the decision-making process.",
-      "Customizable trip itineraries let users plan their days effectively, with options to save and share their plans with fellow travelers."
-    
-],
-img: "./img/four.png",
-skills: [
-    "React JS",
-    "React Router",
-    "Tailwind css",
-    "Travel Advisor Api",
-    "Google Map Api",
-    "JavaScript"
-],
-category: "open source",
-github: "https://github.com/SooryaCodes/HACKTOBERFEST-2024-CHALLENGE/pull/1",
-website: "https://github.com/SooryaCodes/HACKTOBERFEST-2024-CHALLENGE/pull/1",
-members: [
-    {
-        name: "Abd ADH",
-        img: "./img/avat.jpeg",
-        github: "https://github.com/abderrahimadh",
-        linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
-    },
-],
-},
-
-
-{
-    id: 3,
-    title: "Live Streaming WebRTC Application",
-    date: "July 2024",
-    description: "Open-Source Real-Time Streaming Platform",
-    descriptionDetails: [
-        "Developed an open-source WebRTC application for real-time video and audio streaming.",
-        "Features include messaging, chat captions, emoji reactions, hand-raising, and file sharing.",
-        "Provides tools for room management and theme customization.",
-        "Designed for collaborative online sessions and virtual events.",
-        "Simplified for easy integration into existing projects."
-    ],
-    img:"./img/live.png",
-    skills: [
-        "WebRTC",
-    "Real-Time Communication",
-    "JavaScript",
-    "Node.js",
-    "Express.js",
-    "Socket.io",
-    "Git",
-    "Docker",
-    "Kubernetes"
-    ],
-    category: "open source",
-    github: "https://github.com/ashiii1/live-streaming",
-    website: "https://live-streaming-2.onrender.com/",
-    members: [
-        {
-            name: "Abd ADH",
-            img: "./img/avat.jpeg",
-            github: "https://github.com/abderrahimadh",
-            linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
-        },
-       
-    ],
-},
-
-
-
-{
-        
-    id: 22,
-    title: "Diet Plan UI Component",
-    date: "Jul 2024 - Jul 2024",
-    description: "– Diet Plans UI Component - React.js, Javascript, JSX, JSON :-Developed a dynamic Diet Plans component featuring interactive card views, detailed descriptions, and seamless navigation for an enhanced user experience",
-    descriptionDetails: [
-      "EasyExplore is a user-friendly travel planning application designed to help users discover nearby attractions, hotels, restaurants, and more based on their trip location.",
-      "The application provides a seamless experience for planning and exploring travel destinations, making trip management easy and efficient.",
-      "Users can explore various points of interest tailored to their preferences, such as tourist spots, dining options, and accommodations, all in one place.",
-      "Interactive maps allow users to visually explore areas of interest, with intuitive navigation to guide them from one location to another.",
-      "The platform also offers comprehensive search and filter options for refining travel choices based on factors like budget, distance, and type of attraction.",
-      "Integrated booking features enable users to make hotel and restaurant reservations directly within the app, streamlining the process and saving time.",
-      "EasyExplore’s responsive design ensures that the experience is optimized across all devices, whether accessed via mobile, tablet, or desktop.",
-      "Real-time reviews, ratings, and recommendations give users insights into the best places to visit, enhancing the decision-making process.",
-      "Customizable trip itineraries let users plan their days effectively, with options to save and share their plans with fellow travelers."
-    
-],
-img: "./img/one.png",
-skills: [
-    "React JS",
-    "React Router",
-    "Tailwind css",
-    "Travel Advisor Api",
-    "Google Map Api",
-    "JavaScript"
-],
-category: "open source",
-github: "https://github.com/Aneeshaik/gym-app/pull/52",
-website: "https://github.com/Aneeshaik/gym-app/pull/52",
-members: [
-    {
-        name: "Abd ADH",
-        img: "./img/avat.jpeg",
-        github: "https://github.com/abderrahimadh",
-        linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
-    },
-],
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    {
-        id: 12,
-        title: "Furniture App",
-        date: "Jul 2023 - Nov 2023",
-        description: "React JS - Online Furniture Store",
-        descriptionDetails: [
-            "Developed a modern online furniture store with a range of categories including living room, bedroom, office, and more",
-            "Implemented filtering options for products by category, material, color, and price",
-            "Designed a sleek and responsive UI using Tailwind CSS for a smooth browsing experience",
-            "Built a shopping cart with real-time updates, wishlist functionality, and order summary",
-            "Integrated a secure payment system for seamless transactions using Stripe API",
-            "Created product detail pages with zoomable images, customer reviews, and related items",
-            "Optimized the app for mobile devices with a fully responsive design",
-            "Managed global state using Redux Toolkit for efficient state management and smoother navigation"
-        ],
-        img: "./img/furniture.png",
-        skills: [
-            "React JS",
-            "React Router",
-            "Redux Toolkit",
-            "Tailwind CSS",
-            "JavaScript",
-            "Stripe API"
-        ],
-        category: "data science",
-        github: "https://github.com/ashiii1/AIO---All-In-One/tree/main/aio/src/cards/Furniture",
-        website: "https://aio-blush.vercel.app/furniture",
-        members: [
-            {
-                name: "Abd ADH",
-                img: "./img/avat.jpeg",
-                github: "https://github.com/abderrahimadh",
-                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
-            },
-        ],
-    },
-
-    
-    {
-        id: 13,
-        title: "Text-To-ImageGenerator",
-        date: "Jul 2023 - Nov 2023",
-        description: "React JS - Text to Image Generator using Unsplash API",
-        descriptionDetails: [
-            "Developed a text-to-image generator allowing users to search for images using keywords powered by the Unsplash API",
-            "Designed a clean and modern UI using Tailwind CSS for intuitive user interaction",
-            "Implemented search functionality with live suggestions based on user input",
-            "Integrated image display with features like image preview, download, and favorites",
-            "Built a fully responsive design to ensure a smooth experience on both mobile and desktop devices",
-            "Added state management using Redux Toolkit for consistent app behavior and performance",
-            "Incorporated a loading spinner and graceful error handling for better UX",
-            "Optimized API calls and image rendering for faster load times"
-        ],
-        img: "./img/text.png",
-        skills: [
-            "React JS",
-            "React Router",
-            "Redux Toolkit",
-            "Tailwind CSS",
-            "JavaScript",
-            "Unsplash API"
-        ],
-        category: "Dockerized/AWS deployed",
-        github: "https://github.com/ashiii1/Text-to-Image",
-        website: "https://d1cyd7zwa3ber8.cloudfront.net/",
-        members: [
-            {
-                name: "Abd ADH",
-                img: "./img/avat.jpeg",
-                github: "https://github.com/abderrahimadh",
-                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/",
-            },
-        ],
-    },
-    
-    
-   
-   
+                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/"
+            }
+        ]
+    }
 ];
 
 export const education = [
