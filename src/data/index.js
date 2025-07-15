@@ -15,12 +15,60 @@ export const personal_info = {
 
 export const skills = [
     {
+        title: "Programming Languages",
+        skills: [
+            {
+                name: "Python",
+                image:
+                    "https://images.icon-icons.com/2699/PNG/512/python_vertical_logo_icon_168039.png",
+            },
+
+            {
+                name: "JAVA",
+                image:
+                    "https://c8.alamy.com/comp/2CFJA0C/java-programming-2CFJA0C.jpg",
+            },
+
+            {
+                name: "C",
+                image:
+                    "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png",
+            },
+
+            {
+                name: "C++",
+                image:
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png",
+            },
+
+            {
+                name: "SQL",
+                image:
+                    "https://img.favpng.com/16/0/21/sql-server-logo-png-favpng-pXyDxFrAFhWQUeLq6SrgeND1g.jpg",
+            },
+
+            {
+                name: "R",
+                image:
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/724px-R_logo.svg.png",
+            },
+
+
+        ],
+    },
+    {
         title: "Frontend",
         skills: [
             {
                 name: "React JS",
                 image:
                     "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+            },
+
+            {
+                name: "Angular",
+                image:
+                    "https://brandlogos.net/wp-content/uploads/2025/04/angular_icon-logo_brandlogos.net_jn7wi.png",
             },
            
             {
@@ -103,7 +151,23 @@ export const skills = [
         ],
     },
     {
-        "title": "Deployment Strategies and Automation",
+        title: "Cloud computing platforms",
+        skills: [
+            {
+                name: "AWS",
+                image:
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1024px-Amazon_Web_Services_Logo.svg.png",
+            },
+
+            {
+                name: "GCP",
+                image:
+                    "https://www.serviops.ca/wp-content/uploads/2015/07/Google-Cloud-Platform-GCP-Logo.png",
+            },
+        ],
+    },
+    {
+        "title": "Deployment Strategies and Automation CI/CD",
         "skills": [
             {
                 "name": "GitLab",
@@ -114,16 +178,28 @@ export const skills = [
                 "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"
             },
             {
-                "name": "Kubernetes",
-                "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg"
-            },
-            {
                 "name": "Ansible",
                 "image": "https://images.seeklogo.com/logo-png/27/2/ansible-logo-png_seeklogo-272814.png"
             },
             {
+                "name": "Terraform",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_3yP8N1mLoNDdo2gkMzRQfwMpw3ZjiGZeoQ&s"
+            },
+            {
+                "name": "Kubernetes",
+                "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg"
+            },
+            {
                 "name": "Jenkins",
                 "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg"
+            },
+            {
+                "name": "Prometheus",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/800px-Prometheus_software_logo.svg.png"
+            },
+            {
+                "name": "Grafana",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwod0EgYh6ixNJuzJAZt413WNM0SX8RrUJsg&s"
             },
         ],
     },
