@@ -160,6 +160,12 @@ export const skills = [
             },
 
             {
+                name: "AZURE",
+                image:
+                    "./img/Azure.png",
+            },
+
+            {
                 name: "GCP",
                 image:
                     "https://www.serviops.ca/wp-content/uploads/2015/07/Google-Cloud-Platform-GCP-Logo.png",
