@@ -15,11 +15,9 @@ const AboutMe = () => {
                     <AboutMeLeftContainer id="Left">
                         <Title>ABOUT ME</Title>
                         <Description>
-                            I'm Abderrahim ADHAOUR, a final year student at Mohammadia School of Engineering,
-                            diving deep into the realms of Computer Science and Digitalization. Fueled by a
-                            passion for DevOps and Cloud Engineering, I'm constantly enhancing my skills through
-                            competitive programming challenges and hands-on experiences.
-                            My academic journey is driven by a keen interest in DevOps and cloud technologies. With a solid foundation from the Mohammadia School of Engineering, I'm committed to expanding my expertise to tackle complex challenges in these fields. Beyond the classroom, I thrive on practical applications, seeking PFE Internship opportunities to further refine my skills and make meaningful contributions to innovative teams.</Description>
+                            I'm Abderrahim ADHAOUR, a Computer Science and Digitalization Engineering graduate from Mohammadia School of Engineering (EMI). Specialized in DevOps and Cloud Engineering, I have hands-on experience in CI/CD automation, cloud infrastructure, containerization, and deployment.
+
+                            Passionate about building reliable and scalable solutions, I'm continuously strengthening my expertise in technologies such as AWS, Azure, Kubernetes, Docker, Terraform, and CI/CD tools. I'm currently looking for opportunities where I can contribute to innovative projects and grow as a DevOps / Cloud Engineer.</Description>
                         <LineBreak />
                         <CVButton onClick={() => window.open("./img/resume.pdf", '_blank')}>View CV</CVButton>
                     </AboutMeLeftContainer>

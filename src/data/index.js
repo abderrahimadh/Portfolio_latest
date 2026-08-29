@@ -1,7 +1,7 @@
 export const personal_info = {
     name: "Abderrahim ADHAOUR",
     roles: [
-        "Cloud & DevOps Aspirant",
+        "Cloud & DevOps Engineer",
         "Full-Stack Developer",
     ],
     github: "https://github.com/abderrahimadh",
@@ -26,7 +26,7 @@ export const skills = [
             {
                 name: "JAVA",
                 image:
-                    "https://c8.alamy.com/comp/2CFJA0C/java-programming-2CFJA0C.jpg",
+                    "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/java.png",
             },
 
             {
@@ -38,7 +38,7 @@ export const skills = [
             {
                 name: "C++",
                 image:
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png",
+                    "https://cdn.simpleicons.org/cplusplus/00599C",
             },
 
             {
@@ -50,7 +50,7 @@ export const skills = [
             {
                 name: "R",
                 image:
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/724px-R_logo.svg.png",
+                    "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/r.png",
             },
 
 
@@ -119,22 +119,22 @@ export const skills = [
             {
                 name: "Spring Boot",
                 image:
-                    "https://i0.wp.com/e4developer.com/wp-content/uploads/2018/01/spring-boot.png?w=1300&ssl=1",
+                    "https://cdn.simpleicons.org/springboot/6DB33F",
             },
             {
                 name: "MySQL",
                 image:
-                    "https://images.seeklogo.com/logo-png/9/2/mysql-logo-png_seeklogo-96578.png",
+                    "https://cdn.jsdelivr.net/gh/selfhst/icons/png/mysql.png",
             },
             {
-                name: "PostrgreSQL",
+                name: "PostgreSQL",
                 image:
-                    "https://image.shutterstock.com/image-photo/image-260nw-2376072087.jpg",
+                    "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/postgresql.png",
             },
             {
                 name: "Node JS",
                 image:
-                    "https://nodejs.org/static/images/logo.svg",
+                    "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/nodejs.png",
             },
             {
                 name: "Express JS",
@@ -156,7 +156,7 @@ export const skills = [
             {
                 name: "AWS",
                 image:
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1024px-Amazon_Web_Services_Logo.svg.png",
+                    "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-png@latest/light/aws-color.png",
             },
 
             {
@@ -168,12 +168,24 @@ export const skills = [
             {
                 name: "GCP",
                 image:
-                    "https://www.serviops.ca/wp-content/uploads/2015/07/Google-Cloud-Platform-GCP-Logo.png",
+                    "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/google-cloud.png",
+            },
+
+            {
+                name: "OVHCloud",
+                image:
+                    "https://cdn.jsdelivr.net/gh/selfhst/icons/png/ovh.png",
+            },
+
+            {
+                name: "Openshift",
+                image:
+                    "https://cdn.jsdelivr.net/gh/selfhst/icons/png/openshift.png",
             },
         ],
     },
     {
-        "title": "Deployment Strategies and Automation CI/CD",
+        "title": "DevOps and CI/CD tools",
         "skills": [
             {
                 "name": "GitLab",
@@ -200,8 +212,24 @@ export const skills = [
                 "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg"
             },
             {
+                "name": "SonarQube",
+                "image": "https://cdn.jsdelivr.net/gh/selfhst/icons/png/sonarqube.png"
+            },
+            {
+                "name": "Trivy",
+                "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/trivy.png"
+            },
+            {
+                "name": "Nexus",
+                "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/nexus.png"
+            },
+            {
+                "name": "Argo CD",
+                "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/argo-cd.png"
+            },
+            {
                 "name": "Prometheus",
-                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/800px-Prometheus_software_logo.svg.png"
+                "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/prometheus.png"
             },
             {
                 "name": "Grafana",
@@ -236,12 +264,12 @@ export const skills = [
             {
                 name: "VS Code",
                 image:
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+                    "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/vscode.png",
             },
             {
                 name: "Netlify",
                 image:
-                    "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+                    "https://cdn.jsdelivr.net/gh/selfhst/icons/png/netlify.png",
             },
             {
                 name: "Vercel",
@@ -265,6 +293,41 @@ export const skills = [
 export const projects = [
     {
         id: 1,
+        title: "3-Tier Microservice Voting App with CI/CD",
+        date: "August-september 2025",
+        description: "End-to-end DevOps project implementing a 3-tier microservices voting application with automated CI/CD and GitOps deployment on Azure Kubernetes Service (AKS).",
+        descriptionDetails: [
+            "Designed and deployed a 3-tier microservices voting application using containerized services.",
+            "Built an end-to-end CI/CD pipeline with Azure DevOps to automate application build, testing, and deployment.",
+            "Deployed and orchestrated the application on Azure Kubernetes Service (AKS).",
+            "Implemented GitOps practices using ArgoCD to automate Kubernetes deployments and maintain the desired cluster state.",
+            "Applied cloud-native deployment practices to improve scalability, reliability, and maintainability."
+        ],
+        img: "./img/projects/3_tier.png",
+        skills: [
+            "Azure",
+            "Azure DevOps",
+            "Docker",
+            "Kubernetes",
+            "AKS",
+            "ArgoCD",
+            "GitOps",
+            "CI/CD"
+        ],
+        category: "CI/CD DevOps",
+        github: "https://github.com/abderrahimadh/3-tier-App",
+        website: "https://github.com/abderrahimadh/3-tier-App",
+        members: [
+            {
+                name: "Abd ADH",
+                img: "./img/avat.jpeg",
+                github: "https://github.com/abderrahimadh",
+                linkedin: "https://www.linkedin.com/in/abderrahim-adhaour-079b39278/"
+            }
+        ],
+    },
+    {
+        id: 2,
         title: "CI/CD DevOps Pipeline for Java App",
         date: "April-May 2025",
         description: "Automated CI/CD pipeline using Jenkins, Docker, Kubernetes, and AWS.",
@@ -288,7 +351,7 @@ export const projects = [
         ]
     },
     {
-        id: 2,
+        id: 3,
         title: "AWS Cloud Pentesting",
         date: "March-June 2025",
         description: "Security audit and pentest automation suite for AWS (EC2, RDS, S3, IAM).",
@@ -312,7 +375,7 @@ export const projects = [
         ]
     },
     {
-        id: 3,
+        id: 4,
         title: "Hotel Reservation App",
         date: "October-December 2024",
         description: "Angular + Spring Boot based hotel booking system with secure login.",
@@ -336,7 +399,7 @@ export const projects = [
         ]
     },
     {
-        id: 4,
+        id: 5,
         title: "Products Catalog Platform",
         date: "September-October 2024",
         description: "Interactive catalog built with Angular and Firestore for seamless product browsing.",
@@ -360,7 +423,7 @@ export const projects = [
         ]
     },
     {
-        id: 5,
+        id: 6,
         title: "HR Management Application",
         date: "2024",
         description: "Next.js + PostgreSQL HR platform with attendance, leave tracking, and role-based access.",
@@ -384,7 +447,7 @@ export const projects = [
         ]
     },
     {
-        id: 6,
+        id: 7,
         title: "Sports Field Reservation App",
         date: "November-December 2023",
         description: "Java and React-based platform to manage sports field reservations and avoid scheduling conflicts.",
@@ -415,7 +478,7 @@ export const education = [
             img: "./img/EMI LOGO.png",
             school: "MOHAMMADIA School of Engineers (EMI)",
             degree: "It & Digitalization Engineering",
-            date: "2023-2026 | Pursuing",
+            date: "2023-2026 | Completed",
         },
         {
             id: 1,
