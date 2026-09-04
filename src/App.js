@@ -4,7 +4,6 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { Body, Wrapper } from "./AppStyledComponent";
 import { ThemeProvider } from 'styled-components';
 import { darkTheme, lightTheme } from './utils/Themes';
-import Menu from "./components/Navbar/Menu";
 import Navbar from "./components/Navbar/Navbar";
 import ThemeButton from "./components/Navbar/ThemeButton";
 import Home from "./components/Home/Home";

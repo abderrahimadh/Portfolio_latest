@@ -1,5 +1,5 @@
 import {
-    Container, Wrapper, Title, Description, TimelineSection,
+    Container, Wrapper, Title, TimelineSection,
     TimelineLine, TimelineItem, TimelineDot, ExperienceCard,
     Top, CompanyLogo, Company, Role, Date, Category, List, ListItem,
     ToolsWrapper, ToolTag
