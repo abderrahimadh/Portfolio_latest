@@ -166,6 +166,81 @@ export const Span = styled.span`
     cursor: pointer;
 `;
 
+export const Tagline = styled.div`
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: ${({ theme }) => theme.primary};
+    margin-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    @media (max-width: 960px) {
+        justify-content: center;
+    }
+
+    @media (max-width: 640px) {
+        font-size: 15px;
+        justify-content: center;
+    }
+`;
+
+export const CtaGroup = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 32px;
+
+    @media (max-width: 960px) {
+        justify-content: center;
+    }
+
+    @media (max-width: 640px) {
+        gap: 12px;
+    }
+`;
+
+export const CtaButton = styled.a`
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 28px;
+    color: ${({ theme }) => theme.white};
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out !important;
+    background: hsla(271, 100%, 50%, 1);
+    box-shadow: 20px 20px 60px #1F2634, -20px -20px 60px #1F2634;
+
+    &:hover {
+        transform: scale(1.05);
+        transition: all 0.4s ease-in-out;
+        filter: brightness(1.1);
+    }
+
+    @media (max-width: 640px) {
+        padding: 12px 18px;
+        font-size: 15px;
+    }
+`;
+
+export const CtaButtonOutline = styled(CtaButton)`
+    background: transparent;
+    color: ${({ theme }) => theme.primary};
+    border: 2px solid ${({ theme }) => theme.primary};
+    box-shadow: none;
+
+    &:hover {
+        background: ${({ theme }) => theme.primary + 15};
+        color: ${({ theme }) => theme.primary};
+    }
+`;
+
 export const ContactMeButton = styled.a`
     -webkit-appearance: button;
     -moz-appearance: button;
@@ -182,23 +257,20 @@ export const ContactMeButton = styled.a`
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
     background: hsla(271, 100%, 50%, 1);
-    /* background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%); */
-    /* background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%); */
-    /* background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%); */
     box-shadow:  20px 20px 60px #1F2634,
     -20px -20px 60px #1F2634;
-    
+
     &:hover {
         transform: scale(1.05);
         transition: all 0.4s ease-in-out;
         box-shadow: 20px 20px 60px #1F2634;
         filter: brightness(1);
-    }    
+    }
 
     @media (max-width: 640px) {
         padding: 12px 0;
         font-size: 18px;
-    } 
+    }
 `;
 
 export const NavLink = styled.a`
@@ -207,7 +279,7 @@ export const NavLink = styled.a`
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
-    
+
     :hover {
     color: ${({ theme }) => theme.primary};
     }

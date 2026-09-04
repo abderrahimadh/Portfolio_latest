@@ -19,7 +19,7 @@ const AboutMe = () => {
 
                             Passionate about building reliable and scalable solutions, I'm continuously strengthening my expertise in technologies such as AWS, Azure, Kubernetes, Docker, Terraform, and CI/CD tools. I'm currently looking for opportunities where I can contribute to innovative projects and grow as a DevOps / Cloud Engineer.</Description>
                         <LineBreak />
-                        <CVButton onClick={() => window.open("./img/resume.pdf", '_blank')}>View CV</CVButton>
+                        <CVButton href={personal_info.cv} target="_blank" rel="noopener noreferrer">View CV</CVButton>
                     </AboutMeLeftContainer>
 
                     <AboutMeRightContainer id="Right">

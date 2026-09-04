@@ -1,5 +1,5 @@
 import { Container, Wrapper, Title, ToggleButtonGroup, ToggleButton, Divider, CardContainer } from './ProjectsStyledComponent';
-import { useState } from 'react';
+import { Fragment, useState } from 'react';
 import { projects } from '../../data/index';
 import ProjectCard from "../Cards/ProjectCard";
 
@@ -13,25 +13,32 @@ const Projects = ({ openModal, setOpenModal }) => {
                 <Title>My PROJECTS</Title>
 
                 <ToggleButtonGroup>
-                    <ToggleButton active={toggle === 'all'} value="all" onClick={() => setToggle('all')}>
-                        All
-                    </ToggleButton>
-                    <Divider />
-
-                    <ToggleButton active={toggle === 'CI/CD DevOps'} value="CI/CD DevOps" onClick={() => setToggle('CI/CD DevOps')}>
-                        CI/CD DevOps
-                    </ToggleButton>
-
-                    <ToggleButton active={toggle === 'Security / Pentest'} value="Security / Pentest" onClick={() => setToggle('Security / Pentest')}>
-                        Security / Pentest
-                    </ToggleButton>
-                    <Divider />
-
-                    <ToggleButton active={toggle === 'Full Stack'} value="Full Stack" onClick={() => setToggle('Full Stack')}>
-                        Full Stack
-                    </ToggleButton>
-                    <Divider />
-
+                    {[
+                        { value: 'all', label: 'All' },
+                        { value: 'CI/CD DevOps', label: 'CI/CD DevOps' },
+                        { value: 'Security / Pentest', label: 'Security / Pentest' },
+                        { value: 'Full Stack', label: 'Full Stack' },
+                    ].map((filter) => (
+                        <Fragment key={filter.value}>
+                            <ToggleButton
+                                active={toggle === filter.value}
+                                value={filter.value}
+                                role="button"
+                                tabIndex={0}
+                                aria-pressed={toggle === filter.value}
+                                onClick={() => setToggle(filter.value)}
+                                onKeyDown={(event) => {
+                                    if (event.key === 'Enter' || event.key === ' ') {
+                                        event.preventDefault();
+                                        setToggle(filter.value);
+                                    }
+                                }}
+                            >
+                                {filter.label}
+                            </ToggleButton>
+                            {filter.value !== 'Full Stack' && <Divider />}
+                        </Fragment>
+                    ))}
                 </ToggleButtonGroup>
 
 

@@ -10,16 +10,14 @@ const Footer = () => {
     return (
         <FooterContainer>
             <FooterWrapper>
-                <Logo href="/">Abderrahim's Portfolio</Logo>
+                <Logo href="#Main">Abderrahim's Portfolio</Logo>
                 <NavItems>
                     <NavLink href="#Main">Home</NavLink>
                     <NavLink href="#AboutMe">About</NavLink>
-
+                    <NavLink href="#Education">Education</NavLink>
+                    <NavLink href="#Experience">Experience</NavLink>
                     <NavLink href="#Skills">Skills</NavLink>
                     <NavLink href="#Projects">Projects</NavLink>
-                    <NavLink href="#Projects">Open-Source</NavLink>
-
-                    <NavLink href="#Education">Education</NavLink>
                     <NavLink href="#ContactMe">Contact</NavLink>
                 </NavItems>
                 <SocialMediaIcons>
@@ -57,7 +55,7 @@ const Footer = () => {
 
                 </SocialMediaIcons>
                 <Copyright>
-                    &copy; 2025 Abd ADH
+                    &copy; 2026 Abd ADH
                     All rights reserved.
                 </Copyright>
             </FooterWrapper>

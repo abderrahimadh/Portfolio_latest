@@ -28,12 +28,11 @@ const Navbar = () => {
                     </MobileIcon>
                     <NavItems>
                         <NavLink href="#Main">Home</NavLink>
-                        <NavLink href="#AboutMe">About</NavLink> {/* href="#AboutMe" === <div id="AboutMe"> */}
+                        <NavLink href="#AboutMe">About</NavLink>
+                        <NavLink href="#Education">Education</NavLink>
+                        <NavLink href="#Experience">Experience</NavLink>
                         <NavLink href="#Skills">Skills</NavLink>
                         <NavLink href="#Projects">Projects</NavLink>
-                        <NavLink href="#Projects">OpenSource</NavLink>
-
-                        <NavLink href="#Education">Education</NavLink>
                         <NavLink href="#ContactMe">Contact</NavLink>
                     </NavItems>
                     <ButtonContainer>
@@ -66,6 +65,21 @@ const Navbar = () => {
                                 About
                             </MobileLink>
                             <MobileLink
+                                href='#Education' onClick={() => {
+                                setIsOpen(!isOpen)
+                            }}
+                            >
+                                Education
+                            </MobileLink>
+                            <MobileLink
+                                href='#Experience'
+                                onClick={() => {
+                                    setIsOpen(!isOpen)
+                                }}
+                            >
+                                Experience
+                            </MobileLink>
+                            <MobileLink
                                 href='#Skills'
                                 onClick={() => {
                                     setIsOpen(!isOpen)
@@ -80,13 +94,6 @@ const Navbar = () => {
                                 }}
                             >
                                 Projects
-                            </MobileLink>
-                            <MobileLink
-                                href='#Education' onClick={() => {
-                                    setIsOpen(!isOpen)
-                                }}
-                            >
-                                Education
                             </MobileLink>
                             <MobileLink
                                 href='#ContactMe'

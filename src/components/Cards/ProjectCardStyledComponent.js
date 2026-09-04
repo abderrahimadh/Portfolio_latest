@@ -1,25 +1,30 @@
 import styled from 'styled-components'
 
 export const Button = styled.button`
-    display: none;
     width: 100%;
     padding: 10px;
     background-color: ${({ theme }) => theme.primary};
-    color: ${({ theme }) => theme.text_black};
+    color: ${({ theme }) => theme.white};
     font-size: 14px;
     font-weight: 700;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.8s ease-in-out;
+
+    &:hover {
+        filter: brightness(1.15);
+    }
 `;
 
 export const Card = styled.div`
     width: 330px;
-    height: 520px;
+    min-height: 500px;
+    height: auto;
     background-color: ${({ theme }) => theme.card};
     cursor: pointer;
     border-radius: 10px;
+    position: relative;
     box-shadow: 0 0 12px 4px rgba(0,0,0,0.4);
     overflow: hidden;
     padding: 26px 20px;
@@ -27,21 +32,34 @@ export const Card = styled.div`
     flex-direction: column;
     gap: 14px;
     transition: all 0.5s ease-in-out;
-    
+
     &:hover {
         transform: translateY(-10px);
         box-shadow: 0 0 50px 4px rgba(0,0,0,0.6);
         filter: brightness(1.1);
     }
-    
-    &:hover ${Button} {
-        display: block;
-    }
+`;
+
+export const CategoryBadge = styled.span`
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    z-index: 2;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: hsla(271, 100%, 50%, 0.9);
+    padding: 4px 10px;
+    border-radius: 20px;
+    pointer-events: none;
 `;
 
 export const Image = styled.img`
     width: 100%;
     height: 180px;
+    object-fit: cover;
     background-color: ${({ theme }) => theme.white};
     border-radius: 10px;
     box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);

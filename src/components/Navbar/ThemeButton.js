@@ -9,8 +9,8 @@ const ThemeButton = ({ onClick }) => {
     const theme = useTheme();
 
     const toggleDarkMode = () => {
-        setDarkMode(!darkMode);  // Bascule le mode
-        if (onClick) onClick();  // Appelle le parent (optionnel)
+        setDarkMode(!darkMode);
+        if (onClick) onClick();
     };
 
     return (

@@ -86,10 +86,29 @@ export const Label = styled.div`
     font-weight: 600;
     color: ${({ theme }) => theme.text_primary};
     margin: 8px 6px;
-    
+
     @media only screen and (max-width: 600px) {
         font-size: 16px;
         margin: 8px 6px;
+    }
+`;
+
+export const DetailList = styled.ul`
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 8px 6px;
+    padding-left: 22px;
+`;
+
+export const DetailItem = styled.li`
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: ${({ theme }) => theme.text_primary};
+
+    @media only screen and (max-width: 600px) {
+        font-size: 13px;
     }
 `;
 
