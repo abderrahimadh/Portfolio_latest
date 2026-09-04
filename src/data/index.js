@@ -2,12 +2,9 @@ export const personal_info = {
     name: "Abderrahim ADHAOUR",
     roles: [
         "Cloud & DevOps Engineer",
-        <<<<<<< HEAD
-            =======
-            "DevOps / Cloud Engineer",
->>>>>>> fd114b3 (added new sections)
-"Full-Stack Developer",
-],
+        "DevOps / Cloud Engineer",
+        "Full-Stack Developer",
+    ],
 tagline: "CI/CD · Cloud · Kubernetes · Docker · AWS · Azure",
     github: "https://github.com/abderrahimadh",
     cv: "./img/resume.pdf",
@@ -149,9 +146,8 @@ export const skills = [
             {
                 name: "Java",
                 image:
-                    <<<<<<< HEAD
-                        "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/java.png",
-},
+                    "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/java.png",
+            },
 
 {
     name: "C",
@@ -199,10 +195,12 @@ export const skills = [
         name: "Next JS",
         image:
             "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
-    =======
+    },
+    {
+        name: "Java",
+            image:
         "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
->>>>>>> fd114b3 (added new sections)
-},
+    },
     {
         name: "JavaScript",
             image:
@@ -311,7 +309,6 @@ export const skills = [
     {
         name: "ShadCN",
         image:
-            <<<<<<< HEAD
                 "https://cdn.simpleicons.org/springboot/6DB33F",
 },
     {
@@ -426,10 +423,7 @@ export const skills = [
     },
     {
         "name": "Grafana",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwod0EgYh6ixNJuzJAZt413WNM0SX8RrUJsg&s"
-        =======
-            "https://avatars.githubusercontent.com/u/139895814?s=280&v=4",
-    >>>>>>> fd114b3 (added new sections)
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwod0EgYh6ixNJuzJAZt413WNM0SX8RrUJsg&s",
 },
 ],
 },
@@ -558,11 +552,7 @@ export const projects = [
     {
         id: 1,
         title: "3-Tier Microservice Voting App with CI/CD",
-    <<<<<<< HEAD
-        date: "August-september 2025",
-=======
     date: "August – September 2025",
->>>>>>> fd114b3 (added new sections)
 description: "End-to-end DevOps project implementing a 3-tier microservices voting application with automated CI/CD and GitOps deployment on Azure Kubernetes Service (AKS).",
     descriptionDetails: [
     "Designed and deployed a 3-tier microservices voting application using containerized services.",
@@ -745,11 +735,7 @@ export const education = [
         id: 0,
         img: "./img/EMI LOGO.png",
         school: "MOHAMMADIA School of Engineers (EMI)",
-    <<<<<<< HEAD
-        degree: "It & Digitalization Engineering",
-=======
     degree: "IT & Digitalization Engineering",
->>>>>>> fd114b3 (added new sections)
 date: "2023-2026 | Completed",
 },
 {

@@ -11,6 +11,8 @@ import Home from "./components/Home/Home";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Skills from "./components/Skills/Skills";
 import Education from "./components/Education/Education";
+import Experience from "./components/Experience/Experience";
+import Certifications from "./components/Certifications/Certifications";
 import Projects from "./components/Projects/Projects";
 import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
 import ContactMe from "./components/ContactMe/ContactMe";
@@ -39,12 +41,20 @@ function App() {
                     </Wrapper>
 
                     <Wrapper>
-                        <Skills />
-                        <Projects openModal={openModal} setOpenModal={setOpenModal} />
+                        <Education />
                     </Wrapper>
 
                     <Wrapper>
-                        <Education />
+                        <Experience />
+                    </Wrapper>
+
+                    <Wrapper>
+                        <Certifications />
+                    </Wrapper>
+
+                    <Wrapper>
+                        <Skills />
+                        <Projects openModal={openModal} setOpenModal={setOpenModal} />
                     </Wrapper>
 
                     <Wrapper>
